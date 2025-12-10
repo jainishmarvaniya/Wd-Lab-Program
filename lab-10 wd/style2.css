@@ -1,0 +1,137 @@
+*{
+   box-sizing: border-box;
+}
+
+.header{
+   height: 12vh;
+   width: 98vw;
+}
+
+.pic{
+    height: 80px;
+    width: 80px;
+   float: left;
+
+}
+
+.pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.button{
+    float: right;
+}
+
+.button1{
+   display: inline;
+   margin-left: 12px;
+   color: blue;
+}
+
+.sidebarmain{
+    height: 345px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+
+.sidebar1{
+    height: 25px;
+    border-bottom: 2px solid orange;
+}
+
+.sidebar{
+    margin-top: 35px;
+    /* border-top: 2px solid orange; */
+}
+
+.space{
+    height: 10px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+
+.photovalocontent{
+    height: 60vh;
+    width: 70wh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+width: 184px;
+float: left;
+}
+
+.img1{
+    float: left;
+    height: 1000;
+    width: 38%;
+    margin: 10px;
+}
+.div1 img{
+    float: right;
+    height: 1000;
+    width: 15%;
+    margin-right: 11px
+}
+
+.img1 img{
+    height: 80px;
+    width: 80px;
+    margin-left: 12px;
+    margin-top: 12px;  
+}
+.img1 p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 4px;
+}
+
+.row2{
+    display: flex;
+    float: left;
+
+
+}
+
+
+.img2 img{
+    height: 80px;
+    width: 80px;
+    margin-left: 12px;
+    margin-top: 12px;   
+}
+
+.img2 p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 4px;
+}
+.footer{
+    margin-bottom: 30px;
+    background-color: blue;
+   
+}
+@media (max-width:600px){
+   .row1{
+      margin-top: 350px;
+      margin-left:-220px;
+   }
+   .footer{
+    margin-top:500px;
+    width: 95%;
+   }
+   .row2{
+      margin-top:50px;
+      margin-left:-210px;
+   }
+   .img3{
+      margin-top:500px;
+      margin-left:-210px;
+   }
+   body{
+    background-color:aqua;
+   }
+}

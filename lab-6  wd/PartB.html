@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-6(B)</title>
+    <style>
+        *{
+           box-sizing: border-box;
+        }
+
+        .header{
+           height: 12vh;
+           width: 98vw;
+        }
+
+.pic{
+    height: 80px;
+    width: 80px;
+   float: left;
+
+}
+
+.pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.button{
+    float: right;
+}
+
+.button1{
+   display: inline;
+   margin-left: 12px;
+   color: blue;
+}
+
+.sidebarmain{
+    height: 345px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+
+.sidebar1{
+    height: 25px;
+    border-bottom: 2px solid orange;
+}
+
+.sidebar{
+    margin-top: 35px;
+    /* border-top: 2px solid orange; */
+}
+
+.space{
+    height: 10px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+
+.photovalocontent{
+    height: 60vh;
+    width: 70wh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+width: 184px;
+float: left;
+}
+
+.img1{
+    float: left;
+    height: 1000;
+    width: 38%;
+    margin: 10px;
+}
+.div1 img{
+    float: right;
+    height: 1000;
+    width: 15%;
+    margin-right: 11px
+}
+
+.img1 img{
+    height: 80px;
+    width: 80px;
+    margin-left: 12px;
+    margin-top: 12px;  
+}
+.img1 p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 4px;
+}
+
+.row2{
+    display: flex;
+    float: left;
+
+
+}
+
+
+.img2 img{
+    height: 80px;
+    width: 80px;
+    margin-left: 12px;
+    margin-top: 12px;   
+}
+
+.img2 p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 4px;
+}
+.footer{
+    margin-bottom: 30px;
+    background-color: blue;
+   
+}
+
+    </style>
+</head>
+<body>
+    <header>
+         <div class="header">
+            <div class="pic">
+                <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="Windowphoto">
+            </div>
+            <div class="button">
+                <div class="button1">Home</div>
+                <div class="button1">About</div>
+                <div class="button1">Contect</div>
+                <div class="button1">Login</div>
+            </div>
+         </div>
+         <hr>
+    </header>
+   <main>
+    <div class="maincontent">
+        <div class="sidebarmain">
+            <div class="sidebar1">Sidebar</div>
+            <div class="sidebar">Home</div>
+            <div class="space"> </div>
+            <div class="sidebar">Placemant</div>
+            <div class="space"> </div>
+            <div class="sidebar">Reqverment</div>
+            <div class="space"> </div>
+            <div class="sidebar">Faculty</div>
+            <div class="space"> </div>
+            <div class="sidebar">News</div>
+            <div class="space"> </div>
+        </div>
+        <div class="photovalocontent">
+                
+            <div class="row1">
+                 <div  class="img1">
+                <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                <p>Arjun Bala <br>BE,MTech(CSE)</p>
+            </div>
+                <div1 class="img1">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                    <p>Arjun Bala <br>BE,MTech(CSE)</p>
+                </div1> 
+            </div>
+            <div class="row2">
+                <div class="img2">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                    <p>Arjun Bala <br>BE,MTech(CSE)</p>
+                 </div>
+                 <div class="img2">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                    <p>firoz Sreyasiya <br>BE,ME</p>
+                 </div>
+                 <div class="img2">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                    <p>Arjun Bala <br>BE,MTech(CSE)</p>
+                 </div>
+                 <div class="img2">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                    <p>Arjun Bala <br>BE,MTech(CSE)</p>
+                 </div>
+                 <div class="img2">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="not found">
+                    <p>Arjun 123<br>BE,MTech(CSE)</p>
+                 </div>
+            </div>
+        </div>
+    </div> 
+    <hr> 
+   </main>
+   <footer>
+    <div class="footer">&copy;Darshan University</div>
+   </footer>
+</body>
+</html>

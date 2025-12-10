@@ -1,0 +1,114 @@
+.main{
+    background-image: url(frame.png);
+        border: 1px solid black;
+        height: 1000px;
+         
+}
+.top{
+    background-image: url(top_background.jpg);
+         height: 500px;
+         width: 90%;
+         margin: auto;
+
+}
+.header{
+    height: 100px;
+   
+    padding-top: 50px;
+}
+.logo{
+    border: 2px solid palevioletred;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.nav{
+       float: left;
+       margin-left: 400px;
+     font-size: larger;      
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      
+}
+a{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+
+}
+.search{
+    float:right;
+    margin-right: 100px; 
+}
+#search {
+    border-top-left-radius:100px ;
+    border-bottom-left-radius: 100px;
+    border: 0.5px solid;
+}
+
+
+button{
+
+    border: 0.5px solid black;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: palevioletred;
+    color: azure;
+    margin-right: 0px;
+}   
+.content{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-left: 50px;
+}
+.company{
+    height: 150px;
+    margin-right:50px;
+}
+.c{
+     float: right;   
+     margin-left: 50px;
+}
+.experiance{
+        font-size: larger;
+        margin-left: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        float: left;
+}
+.bottom{
+    height: 600px;
+    background-color: white;
+}
+.footer{
+    float: left;
+    margin-left: 200px;
+    
+}
+.bottombox{
+         width: 700px;
+        
+}
+.box-1{
+    float: left;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.box-2{
+    float: left;
+    background-color: aliceblue;
+    margin-left: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+.box-3{
+    float: left;
+     background-color: aliceblue;
+    margin-left: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.title{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

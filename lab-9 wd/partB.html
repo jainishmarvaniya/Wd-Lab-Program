@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-11(B)</title>
+    <style>
+      .main{
+        height: 1000px;
+        width:100%;
+       
+       
+      } 
+      .contain{
+        background-color: red;
+        height:100px;
+        width:100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-top:10px;
+        margin-left: 20px;
+        animation: circle 3s ease-in-out 2s infinite normal;
+        position:relative;
+        float:left;
+      } 
+      @keyframes circle {
+            0%{
+               background-color: red;
+               top:0px;
+               left:0px;
+            }
+            25%{
+               background-color: yellow;
+               top:0px;
+               left:1000px;
+            }
+            50%{
+               background-color: green;
+               top:400px;
+               left:1000px;
+            }
+            75%{
+               background-color:lightblue;
+               top:400px;
+               left:0px;
+            }
+            100%{
+               background-color:darkorchid;
+               top:0px;
+               left:0px;
+            }
+        
+      }
+      .contain1{
+        background-color:black;
+        height:100px;
+        width:100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-top:60px;
+        margin-left:1100px;
+        animation: box 3s ease-in-out 2s infinite normal;
+        position:relative;
+      }
+ 
+      @keyframes box{
+           0%{
+               background-color:darkseagreen;
+               top:0px;
+               right:0px;
+            }
+            25%{
+               background-color:aqua;
+               top:0px;
+               right:1000px;
+            }
+            50%{
+               background-color:deeppink;
+               top:400px;
+               right:1000px;
+            }
+            75%{
+               background-color:teal;
+               top:400px;
+               right:0px;
+            }
+            100%{
+               background-color:tan;
+               top:0px;
+               right:0px;
+               
+            }
+      }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="contain"></div>
+    <div class="contain1"></div>
+</div>  
+</body>
+</html>

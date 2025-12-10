@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Lab-12(A)</title>
+    <style>
+        .a:link{
+            color:blue;
+            text-decoration: none;
+        }
+        a:visited{
+            color:red;
+            text-decoration: none;
+        }
+        a:hover{
+            color:green;
+            text-decoration: none; 
+        }
+        a:active{
+            color:orange;
+            text-decoration: none;
+        }
+        .p1:first-line{
+              color:cadetblue;
+              font-family:monospace;
+              font-size: larger;
+        }
+        .p1::selection{
+             background-color: yellow;
+        }
+        .p2:first-line{
+            color:darkgoldenrod;
+              font-family:cursive;
+              font-size:small;
+        }
+        .p2::selection{
+            background-color: chartreuse;
+        }
+        .p1::first-letter{
+            color:deeppink;
+            font-size:xx-large;
+        }
+        .p2::first-letter{
+            color:green;
+            font-size:xx-large;
+        }
+        .hov{
+            color:darkcyan;
+            transition: transform 1s;
+        }
+        .hov:hover{
+            color: blueviolet;
+            transform:rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+<a href="https://www.facebook.com">facebook</a> 
+<p class="p1">sit amet consectetur adipisicing elit. Laborum, odio?</p>  
+
+<div class="text">
+ <p class="p2">  darshan university</p>
+ 
+
+</div>
+<p class="hov">Hover Text</p>
+</body>
+</html>

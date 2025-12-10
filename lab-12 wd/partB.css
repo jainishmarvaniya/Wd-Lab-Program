@@ -1,0 +1,42 @@
+p::first-line{
+    color: blue;
+    font-family:cursive ;
+    font-size: larger;
+}
+p::first-letter{
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+p::selection{
+    background-color: yellow;
+    color: blue;
+}
+.hor{
+    transform:rotate(0deg);
+    transition:transform 2s;
+}
+.hor:hover{
+    transform: rotate(180deg);
+}
+#xy{
+      color: black;
+}
+#xy:hover{
+    color: red;
+}
+#ab:focus{
+    transform: scale(1.05);
+}
+tr{
+    background-color: blanchedalmond;
+}
+tr:hover{
+    background-color: chartreuse;
+}
+#ab::selection{
+    color:yellow;
+}
+.table::selection{
+    color:yellow;
+}

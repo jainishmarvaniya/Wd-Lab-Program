@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-10</title>
+    <style>
+        .main{
+            width:100%;
+            height:1000px;
+            background-color: aqua;
+        }
+        .header{
+            background-color: black;
+            color:white;
+            height: 100px;
+            width:100%;
+            text-align: center;
+            padding:20px;
+        }
+        .box1{
+            width:100px;
+            height:100px;
+            background-color:darksalmon;
+            margin-top:120px;
+            margin-left: 200px;
+            float: left;
+        }
+        .box2{
+            width:100px;
+            height:100px;
+            background-color:blue;
+            margin-top:120px;
+            margin-left: 50px;
+            float: left;
+        }
+        .box3{
+            width:100px;
+            height:100px;
+            background-color:red;
+            margin-top:120px;
+            margin-left: 50px;
+            float: left;
+        }
+        @media screen and (max-width:480px){
+            .main{
+                background-color: chartreuse;
+                width:fit-content;
+            }
+            .box1{
+                width:100px;
+                height:100px;
+                background-color:darksalmon;
+                margin-top:120px;
+                margin-left: 200px;
+            }
+            .box2{
+                width:100px;
+                height:100px;
+                background-color:blue;
+                margin-top:50px;
+                margin-left:200px;
+            }
+            .box3{
+                width:100px;
+                height:100px;
+                background-color:red;
+                margin-top:60px;
+                margin-left:200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+
+    <div class="header">
+        <h1>Welcome To My Websites</h1>
+    </div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+</body>
+</html>
