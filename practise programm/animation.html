@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation practise</title>
+    <style>
+        body{
+            background-color: blue;
+            height: 1000px;
+            border: 1px solid blue;
+        }
+        .buble1{
+            background-color: red;
+            height: 150px;
+            width: 200px;
+            border-radius:60%;
+            margin-top:350px;
+            animation: buble1 3s ease-in 2s infinite normal;
+            position:absolute;
+        }
+        @keyframes buble1{
+            0%{
+                background-color: aqua;
+                top:0%;
+                left:50%;
+            }
+            50%{
+                background-color: bisque;
+                top:0%;
+                left:100%;
+            }
+            75%{
+                top:50%;
+                left:50%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="buble">
+        <div class="buble1"></div>
+    </div>
+</body>
+</html>
